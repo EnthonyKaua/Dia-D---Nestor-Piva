@@ -42,17 +42,17 @@ function abrirCertificado(setor){
 
     const certificados = {
 
-        "Recepção": "../Assets/IMAGES/CERTIFICADOS/top1.jpeg",
+        "Recepção": "ASSETS/IMAGES/CERTIFICADOS/top1.jpeg",
 
-        "Internamento": "../Assets/IMAGES/CERTIFICADOS/top2.jpeg",
+        "Internamento": "ASSETS/IMAGES/CERTIFICADOS/top2.jpeg",
 
-        "Estabilização": "../Assets/IMAGES/CERTIFICADOS/top3.jpeg",
+        "Estabilização": "ASSETS/IMAGES/CERTIFICADOS/top3.jpeg",
 
-        "Observação": "../Assets/IMAGES/CERTIFICADOS/top4.jpeg",
+        "Observação": "ASSETS/IMAGES/CERTIFICADOS/top4.jpeg",
 
-        "Medicação Rápida": "../Assets/IMAGES/CERTIFICADOS/top5.jpeg",
+        "Medicação Rápida": "ASSETS/IMAGES/CERTIFICADOS/top5.jpeg",
 
-        "Cirurgia e Ortopedia": "../Assets/IMAGES/CERTIFICADOS/top6.jpeg",
+        "Cirurgia e Ortopedia": "ASSETS/IMAGES/CERTIFICADOS/top6.jpeg",
 
     };
 
