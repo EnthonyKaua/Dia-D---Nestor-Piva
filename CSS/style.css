@@ -8,7 +8,7 @@
     -webkit-user-drag: none;
     font-family:'Poppins',sans-serif;
     scroll-behavior: smooth;
-    scroll-padding-top: 50px;
+    scroll-padding-top: 5rem;
 
 }
 
@@ -110,7 +110,7 @@ header{
 
 .hero{
 
-    min-height:85vh;
+    min-height:88vh;
     background:linear-gradient(
     135deg,
     #003b8e,
