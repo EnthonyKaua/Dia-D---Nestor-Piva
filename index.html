@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="EKODS">
+  <meta name="author" content="Enthony Kauã">
 
   <title>Dia D do 5S - Hospital Municipal Dr. Nestor Piva</title>
 
@@ -27,7 +27,7 @@
 
         <div class="nav">
 
-            <div class="logo">
+            <div class="logo" id="logo">
 
                 <img src="ASSETS/IMAGES/logo-piva.jpg" alt="Logo do Hospital Nestor Piva">
 
@@ -37,7 +37,9 @@
 
                 <a href="#sobre5s">O que é ?</a>
                 <a href="#resultados">Resultados</a>
-                <a href="#certificados">Certificados</a>
+                <a href="#auditoria1">1ª Auditoria</a>
+                <a href="#auditoria2">2ª Auditoria</a>
+                <a href="#evolucao">Evolução</a>
                 <a href="#dia-d">Dia D</a>
                 <a href="#galeria">Galeria</a>
 
@@ -316,7 +318,7 @@
 
     </section>
 
-    <section class="info-auditoria">
+    <section class="info-auditoria" id="auditoria1">
 
         <div class="section-title">
             <h2>1ª Auditoria do Programa 5S</h2>
@@ -352,11 +354,11 @@
 
     </section>
 
-    <section id="ranking" class="ranking">
+    <section id="rankingauditoria1" class="ranking">
 
         <div class="section-title">
 
-            <h2>Resultado 1ª Auditoria do Programa 5S</h2>
+            <h2>Resultado da 1ª Auditoria</h2>
 
         </div>
 
@@ -454,11 +456,11 @@
 
     </section>
 
-    <section id="certificados" class="certificados">
+    <section id="certificadosauditoria1" class="certificados">
 
         <div class="section-title">
 
-            <h2>Certificados</h2>
+            <h2>Certificados da 1ª Auditoria</h2>
 
         </div>
 
@@ -469,7 +471,7 @@
                 <h3>Recepção</h3>
                 <p>72% de conformidade</p>
 
-                <button onclick="abrirCertificado('Recepção')">
+                <button onclick="abrirCertificado('Recepção', 1)">
                     Visualizar
                 </button>
 
@@ -480,7 +482,7 @@
                 <h3>Internamento</h3>
                 <p>64% de conformidade</p>
 
-                <button onclick="abrirCertificado('Internamento')">
+                <button onclick="abrirCertificado('Internamento', 1)">
                     Visualizar
                 </button>
 
@@ -491,7 +493,7 @@
                 <h3>Estabilização</h3>
                 <p>60% de conformidade</p>
 
-                <button onclick="abrirCertificado('Estabilização')">
+                <button onclick="abrirCertificado('Estabilização', 1)">
                     Visualizar
                 </button>
 
@@ -502,7 +504,7 @@
                 <h3>Observação</h3>
                 <p>48% de conformidade</p>
 
-                <button onclick="abrirCertificado('Observação')">
+                <button onclick="abrirCertificado('Observação', 1)">
                     Visualizar
                 </button>
 
@@ -513,7 +515,7 @@
                 <h3>Medicação Rápida</h3>
                 <p>44% de conformidade</p>
 
-                <button onclick="abrirCertificado('Medicação Rápida')">
+                <button onclick="abrirCertificado('Medicação Rápida', 1)">
                     Visualizar
                 </button>
 
@@ -524,13 +526,526 @@
                 <h3>Cirurgia e Ortopedia</h3>
                 <p>24% de conformidade</p>
 
-                <button onclick="abrirCertificado('Cirurgia e Ortopedia')">
+                <button onclick="abrirCertificado('Cirurgia e Ortopedia', 1)">
                     Visualizar
                 </button>
 
             </div>
 
         </div>
+
+    </section>
+
+    <section class="info-auditoria" id="auditoria2">
+
+        <div class="section-title">
+            <h2>2ª Auditoria do Programa 5S</h2>
+        </div>
+
+        <div class="audit-grid">
+
+            <div class="audit-card">
+                <span>📅</span>
+                <h3>Data</h3>
+                <p>06 de Julho de 2026</p>
+            </div>
+
+            <div class="audit-card">
+                <span>⏰</span>
+                <h3>Horário</h3>
+                <p>14h30</p>
+            </div>
+
+            <div class="audit-card">
+                <span>👩‍💼</span>
+                <h3>Auditoras</h3>
+                <p>Vitória Suyane e Lais Moraes</p>
+            </div>
+
+            <div class="audit-card">
+                <span>🏥</span>
+                <h3>Escopo</h3>
+                <p>Setores Assistenciais</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="rankingauditoria2" class="ranking">
+
+        <div class="section-title">
+
+            <h2>Resultado da 2ª Auditoria</h2>
+
+        </div>
+
+        <div class="ranking-container">
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥇 Recepção</span>
+                    <span>84%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg,#f8c542 0%,#d4af37 20%, #ffd700 50%, #fff3b0 75%,#ffd700 100%)" data-width="84"></div>
+
+                </div>
+
+            </div>
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥇 Internamento</span>
+                    <span>84%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg,#f8c542 0%,#d4af37 20%, #ffd700 50%, #fff3b0 75%,#ffd700 100%)" data-width="84"></div>
+
+                </div>
+
+            </div>
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥇 Medicação Rápida</span>
+                    <span>84%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg,#f8c542 0%,#d4af37 20%, #ffd700 50%, #fff3b0 75%,#ffd700 100%)" data-width="84"></div>
+
+                </div>
+
+            </div>
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥇 Cirurgia Geral</span>
+                    <span>80%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg,#c79c25 0%,#e0c35c 20%,#f3d978 50%,#f9e9b0 100%)" data-width="80"></div>
+
+                </div>
+
+            </div>
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥈 Observação</span>
+                    <span>76%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg,#A9B4C2 0%,#DDE3EA 20%,#F8FAFC)" data-width="76"></div>
+
+                </div>
+
+            </div>
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+
+                    <span>🥉 Estabilização</span>
+                    <span>72%</span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-fill" style="background:linear-gradient(135deg, #A65A17 0%,#CD7F32 20%,#F2C28B 50%)" data-width="72"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="rank-item">
+
+                <div class="rank-top">
+                    <span>🚀 Ortopedia</span>
+                    <span>44%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-fill" style="background:var(--success)"data-width="44"></div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section id="certificadosauditoria2" class="certificados">
+
+        <div class="section-title">
+
+            <h2>Certificados da 2ª Auditoria</h2>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Recepção</h3>
+                <p>84% de conformidade</p>
+
+                <button onclick="abrirCertificado('Recepção', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Internamento</h3>
+                <p>84% de conformidade</p>
+
+                <button onclick="abrirCertificado('Internamento', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Medicação Rápida</h3>
+                <p>84% de conformidade</p>
+
+                <button onclick="abrirCertificado('Medicação Rápida', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Cirurgia Geral</h3>
+                <p>80% de conformidade</p>
+
+                <button onclick="abrirCertificado('Cirurgia Geral', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Observação</h3>
+                <p>76% de conformidade</p>
+
+                <button onclick="abrirCertificado('Observação', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Estabilização</h3>
+                <p>72% de conformidade</p>
+
+                <button onclick="abrirCertificado('Estabilização', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Ortopedia</h3>
+                <p>44% de conformidade</p>
+
+                <button onclick="abrirCertificado('Ortopedia', 2)">
+                    Visualizar
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="evolucao" id="evolucao">
+
+        <div class="section-title">
+            <h2>Evolução entre Auditorias</h2>
+            <p>
+                Comparativo entre a 1ª e a 2ª Auditoria do Projeto 5S,
+                evidenciando a evolução dos setores após a implementação
+                das ações de melhoria.
+            </p>
+        </div>
+
+        <div class="evolucao-resumo">
+
+            <div class="resumo-card">
+
+                <span>📈</span>
+                <h3>Setores Evoluíram</h3>
+                <strong>100%</strong>
+                <p>
+                    Todos os setores apresentaram crescimento
+                    entre a primeira e a segunda auditoria.
+                </p>
+
+            </div>
+
+            <div class="resumo-card">
+
+                <span>🥇</span>
+                <h3>Certificação Ouro</h3>
+                <strong>4</strong>
+                <p>
+                    Quatro setores alcançaram a certificação
+                    Ouro 5S na segunda auditoria.
+                </p>
+
+            </div>
+
+            <div class="resumo-card destaque">
+
+                <span>🏆</span>
+                <h3>Maior Evolução</h3>
+                <strong>+40</strong>
+                <p>
+                    Medicação Rápida foi o setor que apresentou
+                    o maior crescimento entre as auditorias.
+                </p>
+
+            </div>
+
+        </div>
+
+            <div class="comparativo">
+
+                <div class="comparativo-card">
+
+                    <h3>Recepção</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo prata">
+                            <span>72%</span>
+                            <strong>Prata</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor ouro">
+                            <span>84%</span>
+                            <strong>Ouro</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+12 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card">
+
+                    <h3>Internamento</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo bronze">
+                            <span>64%</span>
+                            <strong>Bronze</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor ouro">
+                            <span>84%</span>
+                            <strong>Ouro</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+20 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card destaque">
+
+                    <h3>Medicação Rápida 🏆</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo transformacao">
+                            <span>44%</span>
+                            <strong>Transformação</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor ouro">
+                            <span>84%</span>
+                            <strong>Ouro</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+40 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card possui-observacao">
+
+                    <div class="info-card">ℹ️</div>
+
+                    <div class="tooltip">
+                        ℹ️ Na 1ª Auditoria, Cirurgia Geral e Ortopedia
+                        foram avaliadas em conjunto, obtendo
+                        <strong>24% de conformidade</strong>.
+                        A partir da 2ª Auditoria, passaram a ser
+                        avaliadas separadamente.
+                    </div>
+
+                    <h3>Cirurgia Geral</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo transformacao">
+                            <span>24%*</span>
+                            <strong>Transformação</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor ouro">
+                            <span>80%</span>
+                            <strong>Ouro</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+56 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card">
+
+                    <h3>Observação</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo evolucao">
+                            <span>48%</span>
+                            <strong>Em Evolução</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor prata">
+                            <span>76%</span>
+                            <strong>Prata</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+28 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card">
+
+                    <h3>Estabilização</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo bronze">
+                            <span>60%</span>
+                            <strong>Bronze</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor prata">
+                            <span>72%</span>
+                            <strong>Prata</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+12 pontos</div>
+
+                </div>
+
+                <div class="comparativo-card possui-observacao">
+
+                    <div class="info-card">ℹ️</div>
+
+                    <div class="tooltip">
+                        ℹ️ Na 1ª Auditoria, Cirurgia Geral e Ortopedia
+                        foram avaliadas em conjunto, obtendo
+                        <strong>24% de conformidade</strong>.
+                        A partir da 2ª Auditoria, passaram a ser
+                        avaliadas separadamente.
+                    </div>
+
+                    <h3>Ortopedia</h3>
+
+                    <div class="comparacao">
+
+                        <div class="valor antigo transformacao">
+                            <span>24%*</span>
+                            <strong>Transformação</strong>
+                        </div>
+
+                        <div class="seta">➜</div>
+
+                        <div class="valor evolucao">
+                            <span>44%</span>
+                            <strong>Em Evolução</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="ganho">+20 pontos</div>
+
+                </div>
+
+            </div>
+
+            <div class="conclusao-evolucao">
+
+                <h3>Melhoria Contínua</h3>
+
+                <p>
+                    Os resultados demonstram que a aplicação dos planos de ação,
+                    o comprometimento das equipes e a metodologia 5S proporcionaram
+                    avanços significativos entre as auditorias, reforçando a cultura
+                    de organização, qualidade e segurança institucional.
+                </p>
+
+            </div>
 
     </section>
 
@@ -626,38 +1141,6 @@
 
     </section>
 
-    <section class="proximas-etapas">
-
-        <div class="section-title">
-            <h2>Próximas Etapas</h2>
-        </div>
-
-        <div class="timeline">
-
-            <div class="step">
-                📢 Apresentação dos Resultados
-            </div>
-
-            <div class="step">
-                🚀 Implementação dos Quick Wins
-            </div>
-
-            <div class="step">
-                📋 Planos de Ação
-            </div>
-
-            <div class="step">
-                📊 Acompanhamento dos Setores
-            </div>
-
-            <div class="step">
-                🔍 Nova Auditoria 5S
-            </div>
-
-        </div>
-
-    </section>
-
     <footer>
 
         <h2>Organizar é cuidar.</h2>
@@ -670,7 +1153,7 @@
         </p>
 
         <small class="creditos">
-            Desenvolvido por Enthony Kauã
+            Desenvolvido por EKODS
         </small>
 
     </footer>

@@ -1,5 +1,13 @@
 const counters = document.querySelectorAll(".numberCounter");
 
+const logo = document.querySelector(".logo");
+
+logo.addEventListener("click",()=>{
+
+    window.scrollTo(0, 0);
+
+});
+
 counters.forEach(counter=>{
 
     const update = ()=>{
@@ -38,22 +46,48 @@ window.addEventListener("load",()=>{
 
 });
 
-function abrirCertificado(setor){
+function abrirCertificado(setor, auditoria){
 
-    const certificados = {
+    let certificados ={};
 
-        "Recepção": "ASSETS/IMAGES/CERTIFICADOS/top1.jpeg",
+    if(auditoria === 1){
 
-        "Internamento": "ASSETS/IMAGES/CERTIFICADOS/top2.jpeg",
+        certificados = {
 
-        "Estabilização": "ASSETS/IMAGES/CERTIFICADOS/top3.jpeg",
+            "Recepção": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top1.jpeg",
 
-        "Observação": "ASSETS/IMAGES/CERTIFICADOS/top4.jpeg",
+            "Internamento": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top2.jpeg",
 
-        "Medicação Rápida": "ASSETS/IMAGES/CERTIFICADOS/top5.jpeg",
+            "Estabilização": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top3.jpeg",
 
-        "Cirurgia e Ortopedia": "ASSETS/IMAGES/CERTIFICADOS/top6.jpeg",
+            "Observação": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top4.jpeg",
 
+            "Medicação Rápida": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top5.jpeg",
+
+            "Cirurgia e Ortopedia": "ASSETS/IMAGES/CERTIFICADOS_1AUDITORIA/top6.jpeg",
+
+        }
+
+    }else if (auditoria === 2){
+
+         certificados = {
+
+            "Recepção": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top1.1.jpeg",
+
+            "Internamento": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top1.2.jpeg",
+
+            "Medicação Rápida": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top1.3.jpeg",
+
+            "Cirurgia Geral": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top1.4.jpeg",
+
+            "Observação": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top2.jpeg",
+
+            "Estabilização": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top3.jpeg",
+
+            "Ortopedia": "ASSETS/IMAGES/CERTIFICADOS_2AUDITORIA/top4.jpeg",
+
+        }
+    
     };
 
     document.getElementById("modal").style.display = "flex";
