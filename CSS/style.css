@@ -406,6 +406,13 @@ header{
 
 }
 
+.evolucao{
+
+    border-left:8px solid var(--secondary);
+
+
+}
+
 .excelencia{
 
     border-left:8px solid #d4af37;
@@ -794,13 +801,7 @@ header{
     color:#666;
     margin-bottom:8px;
 
-}
-
-.valor.evolucao{
-
-    border-left: 8px solid var(--secondary);
-
-}
+}
 
 .valor.ouro::after{
 
