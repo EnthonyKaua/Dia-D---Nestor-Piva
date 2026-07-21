@@ -159,3 +159,24 @@ window.onclick=function(e){
     };
 
 };
+
+var observer = new IntersectionObserver((entries, observer) => {
+
+    entries.forEach(entry => {
+
+        entry.target.toggleAttribute("visible-on-scroll", entry.isIntersecting);
+        if(entry.isIntersecting) observer.unobserve(entry.target);
+
+    });
+
+}, {
+
+    threshold: 0.2
+
+});
+
+secoes.forEach(secao => {
+
+    observer.observe(secao);
+
+});
