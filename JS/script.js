@@ -160,7 +160,9 @@ window.onclick=function(e){
 
 };
 
-var observer = new IntersectionObserver((entries, observer) => {
+const secoes = document.querySelectorAll("section");
+
+const observer = new IntersectionObserver((entries, observer) => {
 
     entries.forEach(entry => {
 
@@ -175,7 +177,7 @@ var observer = new IntersectionObserver((entries, observer) => {
 
 });
 
-secoes.forEach((secao) => {
+secoes.forEach(secao => {
 
     observer.observe(secao);
 
