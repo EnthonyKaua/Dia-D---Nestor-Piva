@@ -51,6 +51,25 @@ section:not(:first-of-type):nth-of-type(odd){
 
 }
 
+
+/* Animação de entrada das seções comentario */
+
+section:not(:first-of-type){
+
+    visibility: hidden;
+    transform: translateY(50px);
+
+}
+
+section[visible-on-scroll]{
+
+    visibility: visible;
+    transform: translateY(0);
+    transition:opacity 0.5s ease-out, transform 0.5s ease-out;
+
+}
+
+
 html{
 
     scroll-behavior:smooth;
@@ -801,7 +820,8 @@ header{
     color:#666;
     margin-bottom:8px;
 
-}
+}
+
 
 .valor.ouro::after{
 
