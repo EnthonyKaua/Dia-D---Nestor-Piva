@@ -175,7 +175,7 @@ var observer = new IntersectionObserver((entries, observer) => {
 
 });
 
-secoes.forEach(secao => {
+secoes.forEach((secao) => {
 
     observer.observe(secao);
 
