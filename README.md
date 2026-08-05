@@ -56,6 +56,7 @@ As cores seguem a identidade definida para o Programa 5S.
 | Azul Secundário | `#00b4d8` |
 | Branco | `#FFFFFF` |
 | Fundo Claro | `#f5f8fc` |
+| Fundo Escuro | `#1f2937` |
 
 Além das cores específicas para as certificações:
 
