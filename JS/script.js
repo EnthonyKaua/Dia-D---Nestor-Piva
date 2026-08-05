@@ -170,10 +170,11 @@ const observer = new IntersectionObserver((entries, observer) => {
         if(entry.isIntersecting) observer.unobserve(entry.target);
 
     });
+    
 
 }, {
 
-    threshold: 0.03
+    threshold: 0.03,
 
 });
 
